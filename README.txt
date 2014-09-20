@@ -1,1 +1,1 @@
-Portolfio Website w/ Latest Projects
+Portfolio Website w/ Latest Projects
