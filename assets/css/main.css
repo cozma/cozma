@@ -2902,9 +2902,14 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/header2.jpg");
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("images/header3.jpg");
+		background-position: center, center,						center center,					center center;
+		background-size: fixed,							contain,							cover;
+		min-width: 100vw;
+		min-height:  100vh;
+		background-repeat: no-repeat;
+		
+
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3256,8 +3261,8 @@
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
-				background-attachment: scroll;
+				padding: 10em 0 10em 0 ;
+				background-attachment: fixed;
 			}
 
 				#header br {
