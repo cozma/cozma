@@ -2904,7 +2904,7 @@
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/header3.jpg");
 		background-position: center, center,						center center,					center center;
-		background-size: fixed,							cover,							cover;
+		background-size: cover,							cover,							cover;
 		min-width: 100vw;
 		min-height:  100vh;
 		background-repeat: no-repeat;
