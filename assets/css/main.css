@@ -2809,7 +2809,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url(""), url("../../images/header2.jpg");
+			background-image: url(""), url("../../images/stop.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2902,7 +2902,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/header3.jpg");
+		background-image: url("images/stop.jpg");
 		background-position: center, center,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		min-width: 100vw;
