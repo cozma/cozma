@@ -3194,7 +3194,7 @@
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgba(39, 40, 51, 0);
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -3248,6 +3248,12 @@
 		margin-top: 0;
 	}
 
+		#title {
+		    max-width: 100%;
+    		max-height: 100%;
+	}
+
+
 /* Header */
 
 	#page-wrapper {
@@ -3255,8 +3261,8 @@
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+		background: rgba(39, 40, 51, 0);
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0);
 		cursor: default;
 		height: 3.5em;
 		left: 0;
@@ -3328,12 +3334,13 @@
 		position: absolute;
 	}
 
+
 /* Banner */
 
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/timecheck.gif");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3352,10 +3359,10 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.2), rgba(23, 24, 32, 0)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
